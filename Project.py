@@ -17,6 +17,12 @@ def find_cargo():
                   index = positions.index(km)
                   total_weight += weights[index]
                   total_cargo += 1
+          if total_cargo == 3 and total_weight == 713:
+              print(f"Cargo found!")
+              break
+          else:
+              print("Cargo not found")
+              
               
     
     
