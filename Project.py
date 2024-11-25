@@ -8,6 +8,9 @@ def find_cargo():
           for i in range(3):
               positions[i] = int(input(f"Enter the distance (km) for box {i+1}: "))
               weights[i] = int(input(f"Enter the weight for box {i+1}: "))
+          print("Enter 3 kilometrs to check where the cargo: ")
+          km_inputs = [int(input(f"Enter kilometer mark {i+1}: ")) for i in range(3)]
+
               
     
     
