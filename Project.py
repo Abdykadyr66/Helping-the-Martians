@@ -12,6 +12,11 @@ def find_cargo():
           km_inputs = [int(input(f"Enter kilometer mark {i+1}: ")) for i in range(3)]
           total_weight = 0
           total_cargo = 0
+          for km in km_inputs:
+              if km in positions:
+                  index = positions.index(km)
+                  total_weight += weights[index]
+                  total_cargo += 1
               
     
     
