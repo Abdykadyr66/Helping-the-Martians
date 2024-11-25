@@ -22,6 +22,7 @@ def find_cargo():
               break
           else:
               print("Cargo not found")
+find_cargo()
               
               
     
